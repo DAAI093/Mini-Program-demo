@@ -1,0 +1,14 @@
+<view>{{m1.getMax(array)}}</view>
+
+<wxs module="m1">
+  module.exports = {
+    getMax: function(array) {
+      var max = undefined;
+      for (var i = 0; i < array.length; ++i) {
+        array[i];
+        (max >= array[i] ? max : array[i]);
+      }
+      return max;
+    }
+  }
+</wxs>
